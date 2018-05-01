@@ -3,5 +3,5 @@ def sort_array_asc(integers)
 end
 
 def sort_array_desc(integers)
-  {integers.sort{ |a,b| a <=> b}.reverse}
+  integers.sort{ |a,b| a <=> b}.reverse
 end
