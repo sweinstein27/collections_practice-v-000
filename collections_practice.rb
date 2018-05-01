@@ -25,14 +25,17 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.include?/[(a)]
+  array.start_with?/[(a)]
 end
+
 
 def sum_array(array)
 array.inject { |sum, n| sum + n}
 end
 
-
-
+# def add_s(array)
+#   array.each_with_index.collect {element, index}
+#   puts "#{}"
+# 
 
   
