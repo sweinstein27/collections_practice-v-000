@@ -23,3 +23,7 @@ def kesha_maker(array)
   new_array = []
   array.each { |word| word[2] = "$" }
 end
+
+def find_a(array)
+  array.include?(a)
+end
