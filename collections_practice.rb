@@ -27,7 +27,7 @@ end
 def find_a(array)
   starts_with_a = []
   array.detect { |word| starts_with_a << word.start_with?("a")}
-  starts_with_a
+  puts starts_with_a
 end
 
 
