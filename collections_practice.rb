@@ -34,5 +34,5 @@ array.inject { |sum, n| sum + n}
 end
 
 def add_s(array)
-array.each_with_index { |word, index| if index == 1 word else word << "s"}
+array.each_with_index { |word, index| if index == 1 word; else word << "s"}
 end
