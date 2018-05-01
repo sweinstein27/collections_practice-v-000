@@ -34,5 +34,5 @@ array.inject { |sum, n| sum + n}
 end
 
 def add_s(array)
-array.each { |word| word"s"}
+array.each { |word| word << "s"}
 end
