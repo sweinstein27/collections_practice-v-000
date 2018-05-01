@@ -36,4 +36,3 @@ end
 def add_s(array)
 array.each { |word| word + "s"}
 end
-
