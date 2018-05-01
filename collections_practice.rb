@@ -27,3 +27,12 @@ end
 def find_a(array)
   array.include?/[(a)]
 end
+
+def sum_array(array)
+array.inject { |sum, n| sum + n}
+end
+
+
+
+
+  
